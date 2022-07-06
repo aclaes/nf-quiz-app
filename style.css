@@ -1,7 +1,7 @@
 @import './global.css';
 
-@import './components/bookmark.css';
-@import './components/card-list.css';
-@import './components/card.css';
-@import './components/header.css';
-@import './components/nav.css';
+@import './components/bookmark/bookmark.css';
+@import './components/card/card.css';
+@import './components/card-list/card-list.css';
+@import './components/header/header.css';
+@import './components/nav/nav.css';
