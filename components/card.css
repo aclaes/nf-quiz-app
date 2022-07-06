@@ -1,0 +1,32 @@
+.card {
+  background: var(--primary-light);
+  padding: 3rem;
+  position: relative;
+}
+
+.card__question {
+  margin: 0 0 3rem 0;
+}
+
+.card__button-answer {
+  background: var(--secondary);
+  border: none;
+  width: 100%;
+  padding: 1rem;
+}
+
+.card__answer {
+  padding: 2rem;
+  font-style: italic;
+  display: none;
+}
+
+.card__answer--active {
+  display: block;
+}
+
+.card__button-bookmark {
+  position: absolute;
+  right: 1rem;
+  top: -1.5rem;
+}

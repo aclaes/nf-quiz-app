@@ -1,0 +1,15 @@
+.bookmark {
+  border: none;
+  padding: 0.5rem;
+  border-radius: 50%;
+  background: var(--secondary);
+  color: var(--white);
+}
+
+.bookmark--active {
+  color: var(--primary);
+}
+
+.bookmark svg {
+  fill: currentColor;
+}
